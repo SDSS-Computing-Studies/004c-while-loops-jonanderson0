@@ -16,10 +16,15 @@ Access granted
 Access denied
 """
 
-username= input("admin")
-if "admin" in username:
-  print("12345password")
-else:
-  print("invalid user")
+un = ""
+pw = ""
+
+while un != "admin" and pw != "12345":
+  un = input("enter username")
+  pw = input("enter password")
+  if un != "admin" and pw != "12345" :
+    print("Access danied")
+    
+print("Access granted")
 
 
