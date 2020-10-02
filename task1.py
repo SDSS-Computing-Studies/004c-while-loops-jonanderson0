@@ -16,6 +16,7 @@ Example:
 10
 ...
 """
+import math
 targetNum = random.randint(0,20)
 a = 0
 while a < 20:
