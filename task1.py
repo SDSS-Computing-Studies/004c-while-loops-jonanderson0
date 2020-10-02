@@ -19,4 +19,5 @@ Example:
 a = 0
 while a < 20:
   x = a + 2
-  print(a)
+  print(x)
+  break
