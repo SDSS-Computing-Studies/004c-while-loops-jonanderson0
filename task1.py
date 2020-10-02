@@ -16,10 +16,9 @@ Example:
 10
 ...
 """
-import math
-targetNum = random.randint(0,20)
-a = 0
-while a < 20:
-  x = a + 2
+
+x = 0
+while x < 20:
+  x = x + 2
   print(x)
  
