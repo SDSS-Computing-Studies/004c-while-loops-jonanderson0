@@ -22,10 +22,10 @@ That is an even integer
 while True:
     a = input("Enter a number: ").strip()
     a = float(a)
-    if a%2!= 0):
+    if a%2!= 0:
         print("That is not an even integer")
-  else:
-    print("That is an even integer")
-    break
+    else:
+      print("That is an even integer")
+      break
 
 
