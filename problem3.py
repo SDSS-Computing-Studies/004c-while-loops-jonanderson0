@@ -15,7 +15,7 @@ Example:
 """
 
 a = 0
-b = =
+b = 0
 c = 1
 
 while a < 100;
