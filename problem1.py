@@ -17,3 +17,18 @@ outputs:
 Access granted
 Access denied
 """
+user="admin"
+pass="12345"
+a = 0
+a = int(a)
+
+while a<3:
+  b=input("user: ").strip()
+  c=input("pass: ").strip()
+  if b==user and c==password:
+    print("Access granted")
+    break
+  else:
+    print("Access denied")
+    a = a+1
+    a = int(a)
