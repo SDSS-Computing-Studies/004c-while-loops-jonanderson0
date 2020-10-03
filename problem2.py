@@ -22,4 +22,4 @@ c=""
 while b<12:
   b=b+1
   c=b*a
-  pritn(str(c)+" " , end='')
+  print(str(c)+" " , end='')
