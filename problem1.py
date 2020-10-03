@@ -17,14 +17,14 @@ outputs:
 Access granted
 Access denied
 """
-user="admin"
-pass="12345"
+un="admin"
+pw="12345"
 a = 0
 a = int(a)
 
 while a<3:
-  b=input("user: ").strip()
-  c=input("pass: ").strip()
+  b=input("un: ").strip()
+  c=input("pw: ").strip()
   if b==user and c==password:
     print("Access granted")
     break
