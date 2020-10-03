@@ -18,8 +18,8 @@ a = 0
 b = 0
 c = 1
 
-while a < 100;
-a = b + c 
-c = b
-b = a
-print(a, end=" ")
+while a < 100:
+  a = b + c 
+  c = b
+  b = a
+  print(a, end=" ")
